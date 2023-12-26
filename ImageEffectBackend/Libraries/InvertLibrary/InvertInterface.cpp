@@ -44,28 +44,7 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_InvertInterface_applyInver
         env->DeleteLocalRef(rowArray);
     }
 
-
-
-
-
-
-
-
-
-
-    // Call the function here
-    // TODO
-
-
-
-
-
-
-
-
-
-
-
+    InvertPicture(&imageVector);
 
     int nrows = imageVector.size();
     int ncols = imageVector[0].size();

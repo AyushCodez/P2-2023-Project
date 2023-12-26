@@ -44,27 +44,7 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_BrightnessInterface_applyB
         env->DeleteLocalRef(rowArray);
     }
 
-
-
-
-
-
-
-
-
-
     brightenPicture(&imageVector, amount);
-
-
-
-
-
-
-
-
-
-
-
 
     int nrows = imageVector.size();
     int ncols = imageVector[0].size();
