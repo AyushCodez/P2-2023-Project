@@ -56,6 +56,8 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_GrayscaleInterface_applyGr
     // Call the function here
     // TODO
 
+    applyGrayscale(&imageVector);   //added
+
 
 
 
