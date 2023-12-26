@@ -1,14 +1,15 @@
 #include <vector>
+#include <algorithm>
 
-// Function to flip the image
-void flipImage(std::vector<std::vector<int>>& image) {
-    int rows = image.size();
-    int cols = image[0].size();
-
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < cols / 2; j++) {
-            // Swap pixels horizontally
-            std::swap(image[i][j], image[i][cols - j - 1]);
+using namespace std;
+// Function to flip the vector of vector of pixels horizontally and/or vertically depending on parameters
+void flipPixels(std::vector<std::vector<int>>& pixels, int flipHorizontal, int flipVertical) {
+    if (flipHorizontal) {
+        for (auto& row : pixels) {
+            reverse(row.begin(), row.end());
         }
+    }
+    if (flipVertical) {
+        reverse(pixels.begin(), pixels.end());
     }
 }
