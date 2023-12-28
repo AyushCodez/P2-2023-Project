@@ -1,5 +1,6 @@
 #include <vector>
-#include "Brightness.h"
 #include "../Pixel.h"
 
-void brightenPicture(std::vector<std::vector<Pixel>>& pixels, int amount);
+using namespace std;
+
+void brightenPicture(vector<vector<Pixel>>& pixels, int amount);

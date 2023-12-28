@@ -3,7 +3,7 @@
 
 using namespace std;
 // Function to flip the vector of vector of pixels horizontally and/or vertically depending on parameters
-void flipPixels(std::vector<std::vector<int>>& pixels, int flipHorizontal, int flipVertical) {
+void flipPixels(vector<vector<int>>& pixels, int flipHorizontal, int flipVertical) {
     if (flipHorizontal) {
         for (auto& row : pixels) {
             reverse(row.begin(), row.end());

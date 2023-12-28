@@ -45,7 +45,7 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_SepiaInterface_applySepia
     }
 
 
-    applySepia(&imageVector);
+    applySepia(imageVector);
 
     int nrows = imageVector.size();
     int ncols = imageVector[0].size();

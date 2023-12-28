@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void InvertPicture(vector<vector<Pixel>>& pixels) { //amount should be between 0 and 100
+void InvertPicture(vector<vector<Pixel>>& pixels) {
     for (auto& row : pixels) {
         for (auto& pixel : row) {
             pixel.r = (255-pixel.r);

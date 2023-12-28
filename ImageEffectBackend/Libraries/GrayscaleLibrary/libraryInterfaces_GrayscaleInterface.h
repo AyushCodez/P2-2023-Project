@@ -10,10 +10,10 @@ extern "C" {
 /*
  * Class:     libraryInterfaces_GrayscaleInterface
  * Method:    applyGrayscale
- * Signature: ([[LlibraryInterfaces/Pixel;FF)[[LlibraryInterfaces/Pixel;
+ * Signature: ([[LlibraryInterfaces/Pixel;)[[LlibraryInterfaces/Pixel;
  */
 JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_GrayscaleInterface_applyGrayscale
-  (JNIEnv *, jclass, jobjectArray, jfloat, jfloat);
+  (JNIEnv *, jclass, jobjectArray);
 
 #ifdef __cplusplus
 }

@@ -44,7 +44,9 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_FlipInterface_applyFlip
         env->DeleteLocalRef(rowArray);
     }
 
-    flipImage(&imageVector, horizontalFlipValue, verticalFlipValue);
+    flipImage(imageVector, horizontalFlipValue, verticalFlipValue); //function call
+
+
     int nrows = imageVector.size();
     int ncols = imageVector[0].size();
     jobjectArray resultArray = env->NewObjectArray(nrows, pixelArrayClass, nullptr);

@@ -6,6 +6,32 @@
   <component name="ChangeListManager">
     <list default="true" id="0175f18d-4d3b-4ba2-9aef-637c95b2b0c2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/BrightnessLibrary/Brightness.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/BrightnessLibrary/Brightness.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/BrightnessLibrary/BrightnessInterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/BrightnessLibrary/BrightnessInterface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/BrightnessLibrary/libraryInterfaces_BrightnessInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/BrightnessLibrary/libraryInterfaces_BrightnessInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/ContrastLibrary/Contrast.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/ContrastLibrary/Contrast.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/ContrastLibrary/libraryInterfaces_ContrastInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/ContrastLibrary/libraryInterfaces_ContrastInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/FlipLibrary/Flip.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/FlipLibrary/Flip.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/FlipLibrary/Flip.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/FlipLibrary/Flip.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/FlipLibrary/FlipInterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/FlipLibrary/FlipInterface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/FlipLibrary/libraryInterfaces_FlipInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/FlipLibrary/libraryInterfaces_FlipInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/GaussianBlurLibrary/libraryInterfaces_GaussianBlurInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/GaussianBlurLibrary/libraryInterfaces_GaussianBlurInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/GrayscaleLibrary/Grayscale.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/GrayscaleLibrary/Grayscale.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/GrayscaleLibrary/GrayscaleInterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/GrayscaleLibrary/GrayscaleInterface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/GrayscaleLibrary/libraryInterfaces_GrayscaleInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/GrayscaleLibrary/libraryInterfaces_GrayscaleInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/HueSaturationLibrary/libraryInterfaces_HueSaturationInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/HueSaturationLibrary/libraryInterfaces_HueSaturationInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/InvertLibrary/Invert.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/InvertLibrary/Invert.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/InvertLibrary/Invert.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/InvertLibrary/Invert.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/InvertLibrary/InvertInterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/InvertLibrary/InvertInterface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/InvertLibrary/libraryInterfaces_InvertInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/InvertLibrary/libraryInterfaces_InvertInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/RotationLibrary/Rotation.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/RotationLibrary/Rotation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/RotationLibrary/RotationInterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/RotationLibrary/RotationInterface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/RotationLibrary/libraryInterfaces_RotationInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/RotationLibrary/libraryInterfaces_RotationInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/SepiaLibrary/SepiaInterface.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/SepiaLibrary/SepiaInterface.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/SepiaLibrary/libraryInterfaces_SepiaInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/SepiaLibrary/libraryInterfaces_SepiaInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectBackend/Libraries/SharpenLibrary/libraryInterfaces_SharpenInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectBackend/Libraries/SharpenLibrary/libraryInterfaces_SharpenInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageEffectFrontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/ImageEffectFrontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +44,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2YrqQTm0CZHvvdnGtJkfbLCdTgj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,10 +70,16 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dhruv Kothari\OneDrive - iiit-b\Desktop\p2_proj\P2-2023-Project\ImageEffectBackend\Libraries" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701294029316</updated>
       <workItem from="1703489388589" duration="349000" />
+      <workItem from="1703699456190" duration="9921000" />
     </task>
     <servers />
   </component>
