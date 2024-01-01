@@ -2,7 +2,7 @@ package libraryInterfaces;
 
 public class FlipInterface {
     static {
-        String libraryPath = System.getProperty("user.dir") + "/Libraries/FlipLibrary/FlipLib.so";
+        String libraryPath = System.getProperty("user.dir") + "\\Libraries\\FlipLibrary\\FlipLib.dll";
         System.load(libraryPath);
     }
 

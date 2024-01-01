@@ -1,6 +1,15 @@
 package com.iiitb.imageEffectApplication.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+
+@Entity
 public class LogModel {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
     private String timestamp; // The time at which the effect was applied
     private String filename; // The name of the file on which the effect is applied
     private String effectName; // The name of the effect applied
@@ -47,5 +56,15 @@ public class LogModel {
 
     public void setOptionValues(String optionValues) {
         this.optionValues = optionValues;
+    }
+
+    @Override
+    public String toString()
+    {
+        System.out.println(this.filename);
+        System.out.println(this.effectName);
+        System.out.println(this.timestamp);
+        System.out.println(this.optionValues);
+        return "";
     }
 }

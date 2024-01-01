@@ -44,28 +44,7 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_SharpenInterface_applyShar
         env->DeleteLocalRef(rowArray);
     }
 
-
-
-
-
-
-
-
-
-
-    // Call the function here
-    // TODO
-
-
-
-
-
-
-
-
-
-
-
+    sharpenpicture(imageVector, amount);
 
     int nrows = imageVector.size();
     int ncols = imageVector[0].size();

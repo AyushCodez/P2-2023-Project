@@ -2,7 +2,7 @@ package libraryInterfaces;
 
 public class RotationInterface {
     static {
-        String libraryPath = System.getProperty("user.dir") + "/Libraries/RotationLibrary/RotationLib.so";
+        String libraryPath = System.getProperty("user.dir") + "\\Libraries\\RotationLibrary\\RotationLib.dll";
         System.load(libraryPath);
     }
 

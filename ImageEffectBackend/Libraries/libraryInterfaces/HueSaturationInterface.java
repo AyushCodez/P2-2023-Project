@@ -2,7 +2,7 @@ package libraryInterfaces;
 
 public class HueSaturationInterface {
     static {
-        String libraryPath = System.getProperty("user.dir") + "/Libraries/HueSaturationLibrary/HueSaturationLib.so";
+        String libraryPath = System.getProperty("user.dir") + "\\Libraries\\HueSaturationLibrary\\HueSaturationLib.dll";
         System.load(libraryPath);
     }
 

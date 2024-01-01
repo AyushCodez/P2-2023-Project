@@ -2,7 +2,7 @@ package libraryInterfaces;
 
 public class GrayscaleInterface {
     static {
-        String libraryPath = System.getProperty("user.dir") + "/Libraries/GrayscaleLibrary/GrayscaleLib.so";
+        String libraryPath = System.getProperty("user.dir") + "\\Libraries\\GrayscaleLibrary\\GrayscaleLib.dll";
         System.load(libraryPath);
     }
 

@@ -2,7 +2,7 @@ package libraryInterfaces;
 
 public class SharpenInterface {
     static {
-        String libraryPath = System.getProperty("user.dir") + "/Libraries/SharpenLibrary/SharpenLib.so";
+        String libraryPath = System.getProperty("user.dir") + "\\Libraries\\SharpenLibrary\\SharpenLib.dll";
         System.load(libraryPath);
     }
 

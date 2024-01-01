@@ -45,26 +45,7 @@ JNIEXPORT jobjectArray JNICALL Java_libraryInterfaces_GaussianBlurInterface_appl
     }
 
 
-
-
-
-
-
-
-
-
-    // Call the function here
-    // TODO
-
-
-
-
-
-
-
-
-
-
+    blurpicture(imageVector, radius);
 
 
     int nrows = imageVector.size();
